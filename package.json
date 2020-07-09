@@ -1,0 +1,29 @@
+{
+  "name": "traversy-react-graphql",
+  "version": "1.0.0",
+  "description": "SpaceX monitoring web app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zarkoboyadjiev/spacex-launch-monitor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zarkoboyadjiev/spacex-launch-monitor/issues"
+  },
+  "homepage": "https://github.com/zarkoboyadjiev/spacex-launch-monitor#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
